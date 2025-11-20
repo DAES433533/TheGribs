@@ -10,6 +10,9 @@ project:
   - name: Alex Colgate
   - name: Alex Kramer
   - name: Amanda Maminimini
+  contributors:
+  - name: Kevin Tyle
+  - name: Sincere Miranda
   copyright: '2025'
   toc:
     - file: README.md
