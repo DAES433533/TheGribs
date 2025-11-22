@@ -25,4 +25,4 @@ project:
         - file: notebooks/lightning2.ipynb
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: projectpythia/cookbook-finalfirstdraft
