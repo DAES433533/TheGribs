@@ -12,7 +12,8 @@ This Project Pythia Cookbook focuses on analyzing a tornadic event using a varie
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+Terrain has long been theorized to play a significant role in improving the local severe convective environment under the proper conditions. This effect has ben noted amongst many of the recent significant tornadic events, including the Turin EF3 of 2023, The Duanesburg EF3 of 2014, the Mechanicville F3 of 1998, and the Great Barington tornado of 1995, though this is far from an exhaustive list. Significant tornadic impacts have occured in the Great Barrington and Mechanicville events, warranting study of such events to improve understanding and predictability. By the end of this cookbood, you should be able to undertake a quality analysis of a multitude of aspects of a significant tornadic event, from synoptic scale to storm scale analysis.
+
 
 ## Authors
 
