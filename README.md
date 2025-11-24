@@ -1,4 +1,4 @@
-# (Replace_with_your_title) Cookbook
+# Investigating the Influence of Topography on Tornadic Events
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
@@ -8,7 +8,7 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook focuses on analyzing a tornadic event using a variety of datasets. A synoptic and mesoscale environment analysis will be done using ERA5 reanalysis and archived operational High Resolution Rapid Refresh (HRRR) forecast output. Analysis of lightning flashes will be provided with GOES 16 Global Lightning Mapper (GLM) lightning flash data. Observed soundings will be plotted and analyze using the `SounderPy` python package. Mosaic Radar and derived products will be analyzed from GridRad grids.
 
 ## Motivation
 
