@@ -26,7 +26,6 @@ project:
         - file: notebooks/maps_from_era5.ipynb
         - file: notebooks/maps_from_hrrr.ipynb
         - file: notebooks/ERA5_soundings.ipynb
-        - file: 
         
   jupyter:
       binder:
