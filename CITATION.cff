@@ -27,5 +27,5 @@ authors:
     orcid: https://orcid.org/0000-0001-5249-9665
     website: https://github.com/ktyle
     affiliation: University at Albany (State University of New York)
-title: "Gribs Cookbook"
-abstract: "The Gribs sample cookbook description."
+title: "The Gribs Cookbook"
+abstract: "The study aims to evaluate the extent to which local topography contributes to severe thunderstorm event intensity and distribution in the Northeastern United States. The comparative effect of topography on varying synoptic environments and ambient background flows during severe weather outbreaks will be investigated. Two northeast tornado events with river valley tornadogenesis but differing synoptic-scale setups have been chosen to compare and contrast. Gridded reflectivity analysis from GridRad, model soundings from SounderPy, GLM Lightning density data, ERA5 reanalysis for wind/dewpoint/temperature fields will be used as datasets to examine terrain effects. North-South oriented river valleys are thought to channel and locally increase CAPE and SRH, aiding in tornadogenesis."
