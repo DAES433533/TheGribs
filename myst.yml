@@ -21,14 +21,13 @@ project:
         - file: notebooks/how-to-cite.md
     - title: Notebooks
       children:
-        - file: notebooks/5_5_18lightning.ipynb
-        - file: notebooks/7_29_21lightning.ipynb
         - file: notebooks/maps_from_era5.ipynb
         - file: notebooks/maps_from_hrrr.ipynb
         - file: notebooks/ERA5_soundings.ipynb
-        - file: gridradrefl_azshear.ipynb
-        - file: gridradspec_corr.ipynb
-        
+        - file: notebooks/5_5_18lightning.ipynb
+        - file: notebooks/7_29_21lightning.ipynb
+        - file: notebooks/gridradrefl_azshear.ipynb
+        - file: notebooks/gridradspec_corr.ipynb
   jupyter:
       binder:
         repo: projectpythia/cookbook-finalfirstdraft
