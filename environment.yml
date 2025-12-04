@@ -1,21 +1,14 @@
-name: cookbook-dev
+name: thegribs-cookbook
 channels:
-  - conda-forge
+    - conda-forge
 dependencies:
-  - jupyterlab
-  - mystmd
-  - jupyterlab-myst
-
-name: gridradpy
-channels: 
-    - pip
-dependencies:
-    - xarray as xr
-    - cartopy.crs as ccrs
-    - cartopy.feature as cfeature
-    - matplotlib.pyplot as plt
-    - numpy as np
-    - glob 
-    - matplotlib.animation import FuncAnimation
-    - IPython.display import HTML
-
+    - jupyterlab
+    - mystmd
+    - jupyterlab-myst
+    - xarray 
+    - cartopy
+    - matplotlib
+    - numpy
+    - metpy
+    - zarr 
+ 
