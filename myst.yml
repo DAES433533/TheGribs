@@ -21,8 +21,12 @@ project:
         - file: notebooks/how-to-cite.md
     - title: Notebooks
       children:
-        - file: notebooks/lightning1.ipynb
-        - file: notebooks/lightning2.ipynb
+        - file: notebooks/5_5_18Lightning.ipynb
+        - file: notebooks/7_29_21Lightning.ipynb
+        - file: notebooks/maps_from_era5.ipynb
+        - file: notebooks/maps_from_hrrr.ipynb
+        - file: notebooks/gridradrefl_azshear.ipynb
+        - file: notebooks/gridradspec_corr.ipynb
   jupyter:
       binder:
         repo: projectpythia/cookbook-finalfirstdraft
