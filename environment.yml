@@ -9,6 +9,21 @@ dependencies:
     - cartopy
     - matplotlib
     - numpy
+    - pandas 
     - metpy
     - zarr 
+    - sounderpy 
+    - ipywidgets 
+    - cfgrib
+    - s3fs
+    - fsspec
+    - herbie 
+    - gcsfs
+    - warnings 
+    - os
+    - io
+    - math
+    - requests
+    - PIL
+
  
