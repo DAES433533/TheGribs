@@ -28,6 +28,9 @@ project:
         - file: notebooks/7_29_21lightning.ipynb
         - file: notebooks/gridradrefl_azshear.ipynb
         - file: notebooks/gridradspec_corr.ipynb
+    - title: Conclusion
+      children:
+        - file: conclusion.md
   jupyter:
       binder:
         repo: projectpythia/cookbook-finalfirstdraft
