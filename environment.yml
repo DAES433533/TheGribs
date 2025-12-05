@@ -2,6 +2,7 @@ name: thegribs-cookbook
 channels:
     - conda-forge
 dependencies:
+    - python>=3.13
     - jupyterlab
     - mystmd
     - jupyterlab-myst
@@ -17,5 +18,5 @@ dependencies:
     - cfgrib
     - s3fs
     - fsspec
-    - herbie
+    - herbie-data
     - gcsfs
