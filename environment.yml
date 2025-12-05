@@ -19,11 +19,6 @@ dependencies:
     - fsspec
     - herbie 
     - gcsfs
-    - warnings 
-    - os
-    - io
-    - math
-    - requests
-    - PIL
+
 
  
