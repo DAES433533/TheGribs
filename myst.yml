@@ -3,11 +3,11 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: Prototype Project Repo
+  github: https://github.com/projectpythia/proto-cookbook
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: Alex Colgate
+  copyright: '2025'
   toc:
     - file: README.md
     - title: Preamble
@@ -16,6 +16,12 @@ project:
     - title: Introduction
       children:
         - file: notebooks/notebook-template.ipynb
+    - title: Reading in GridRad-Severe Data Part 1: Radar Reflectivity and Azimuthal Shear 
+      children: 
+        - file: notebooks/gridradrefl_azshear.ipynb
+    - title: Reading in GridRad-Severe Data Part 2: Velocity Spectrum Width and Correlation Coefficient
+      children:
+        - file: notebooks/gridradspec_corr.ipynb
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: projectpythia/proto-cookbook
