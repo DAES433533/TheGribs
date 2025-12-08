@@ -1,6 +1,9 @@
 # Investigating the Influence of Topography on Tornadic Events
 
-<img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
+<figure>
+  <img src="thumbnails/tor.jpg" alt="thumbnail" width="300"/>
+  <figcaption>Image from the NWS</figcaption>
+</figure>
 
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
