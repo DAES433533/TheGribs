@@ -2,13 +2,10 @@
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook focuses on analyzing a tornadic event using a variety of datasets. A synoptic and mesoscale environment analysis will be done using ERA5 reanalysis and archived operational High Resolution Rapid Refresh (HRRR) forecast output. Analysis of lightning flashes will be provided with GOES 16 Global Lightning Mapper (GLM) lightning flash data. Observed soundings will be plotted and analyze using the `SounderPy` python package. Mosaic Radar and derived products will be analyzed from GridRad grids.
+This Project Pythia Cookbook focuses on analyzing a tornadic event using a variety of datasets. A synoptic and mesoscale environment analysis will be done using ERA5 reanalysis and archived operational High Resolution Rapid Refresh (HRRR) forecast output. Analysis of lightning flashes will be provided with GOES 16 Global Lightning Mapper (GLM) lightning flash data. Observed soundings will be plotted and analyze using the `[SounderPy](https://kylejgillett.github.io/sounderpy/)` python package. Mosaic Radar and derived products will be analyzed from GridRad grids.
 
 ## Motivation
 
@@ -19,11 +16,6 @@ Terrain has long been theorized to play a significant role in improving the loca
 
 [Alex Kramer](https://github.com/krameral), [Mark Warburg](https://github.com/warburgm), [Amanda Maminimini](https://github.com/Amaminimini), [Alex Colgate](https://github.com/ajcolgat)
 
-### Contributors
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
 
 ## Structure
 
@@ -32,12 +24,12 @@ This notebook is broken up into the following sections:
 1. Introduction and Cases of Terrain Influence
 2. The 5 May 2018 Merrimack County NH EF1
        a) Synoptic analysis from ERA 5 and mesoscale analysis from HRRR 
-       b) ERA5 Modeled sounding analysis with `SounderPy`
+       b) ERA5 Modeled sounding analysis with `[SounderPy](https://kylejgillett.github.io/sounderpy/)`
        c) Lightning analysis from GOES 16 GLM
        d) Event progression analysis using GridRad gridded WSR-88D reflectivity and derived azimuthal shear
 4. The 29 July 2021 Central New Jersey Tornado Family
        a) Synoptic analysis from ERA 5 and mesoscale analysis from HRRR
-       b) ERA5 modeled sounding analysis with `SounderPy`
+       b) ERA5 modeled sounding analysis with `[SounderPy](https://kylejgillett.github.io/sounderpy/)`
        c) Lightning analysis from GOES 16 GLM
        d) Event progression analysis using GridRad gridded WSR-88D reflectivity and derived azimuthal shear
 
@@ -92,12 +84,11 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/toradic-event-topography-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/toradic-event-topography-cookbook.git
    ```
 
 1. Move into the `cookbook-example` directory
@@ -107,7 +98,7 @@ If you are interested in running this material locally on your computer, you wil
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate toradic-event-topography-cookbook
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
