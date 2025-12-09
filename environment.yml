@@ -17,7 +17,7 @@ dependencies:
     - cfgrib
     - s3fs
     - fsspec
-    - herbie 
+    - herbie-data
     - gcsfs
 
 
