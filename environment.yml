@@ -2,21 +2,23 @@ name: thegribs-cookbook
 channels:
     - conda-forge
 dependencies:
-    - python>=3.13
     - jupyterlab
     - mystmd
     - jupyterlab-myst
-    - xarray
+    - xarray 
     - cartopy
     - matplotlib
     - numpy
-    - pandas
+    - pandas 
     - metpy
-    - zarr
-    - sounderpy
-    - ipywidgets
+    - zarr 
+    - sounderpy 
+    - ipywidgets 
     - cfgrib
     - s3fs
     - fsspec
     - herbie-data
     - gcsfs
+
+
+ 
